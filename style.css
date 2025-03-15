@@ -1,0 +1,62 @@
+.themelayout{
+    margin: 20px;
+    background-color: gray;
+    width: 98%;
+    height: 500px;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: max-content;
+}
+body{
+    position: relative;
+    background-color: #141414;
+}
+.callforaction{
+    color: white;
+    margin: 40px;
+    padding-left: 50px;
+    border-color: green;
+    border-radius: 30px;
+    border-style: solid;
+}
+.signuppad{
+    background-color: #141414;
+    color: whitesmoke;
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 5%;
+    margin-right: 10%;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.Loginpad{
+    background-color: #141414;
+    color: whitesmoke;
+    position: absolute;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 10%;
+    padding: 20px;
+    border-radius: 20px;
+    border: solid white;
+    display: flex;
+    flex-direction: column;
+}
+.card2 {
+  transition: transform .2s;
+  margin: 0 auto;
+}
+
+.card2:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+
+
