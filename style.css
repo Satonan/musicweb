@@ -144,3 +144,6 @@ i {
 .illustrate {
   margin: 20px;
 }
+.form-control{
+  height: 40px;
+}
