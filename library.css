@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: black;
+  padding: 40px;
+}
+
+.container {
+  background: white;
+  border-radius: 10px;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar {
+  width: 200px;
+  background: #f8f8f8;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-right: 1px solid #eaeaea;
+}
+
+.sidebar .logo {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.sidebar nav a {
+  display: block;
+  color: #333;
+  text-decoration: none;
+  margin: 15px 0;
+  font-size: 16px;
+}
+
+.sidebar .bottom {
+  font-size: 14px;
+  color: #777;
+}
+
+.main {
+  flex: 1;
+  padding: 40px;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.main-header h1 {
+  font-size: 28px;
+}
+
+.actions {
+  display: flex;
+  gap: 15px;
+}
+
+.actions input {
+  padding: 10px 15px;
+  border-radius: 30px;
+  border: 1px solid #ddd;
+  width: 200px;
+}
+
+.actions button {
+  background: green;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.tabs {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.tabs span {
+  font-size: 16px;
+  color: #666;
+  cursor: pointer;
+  position: relative;
+}
+
+.tabs .active::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: black;
+  bottom: -5px;
+  left: 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: left;
+  font-size: 14px;
+  border-bottom: 1px solid #eee;
+}
+
+td img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.song {
+  display: flex;
+  align-items: center;
+}
+
+.song-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.song-info small {
+  color: #888;
+  font-size: 12px;
+}
+
+.profile-pic {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
