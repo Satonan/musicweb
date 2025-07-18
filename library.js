@@ -1,4 +1,4 @@
-const playlist = [
+const playlists = [
   {
     playlistName: "",
     artist: "",
@@ -7,19 +7,19 @@ const playlist = [
   },
 ];
 
-playlistDiv = document.querySelector(".playlist");
+let playlistDiv = document.querySelector(".playlist");
 console.log("🚀 ~ playlistDiv:", playlistDiv);
 playlists.map((playlist) => {
-  playlistDiv = document.createElement("iframe");
-  playlistDiv.src = playlist.filePath;
-  playlistDiv.width = "";
-  playlistDiv.height = "";
-  playlistDiv.frameBorder = "0";
-  playlistDiv.allowFullscreen = "";
-  playlistDiv.allow =
+  childPlaylistDiv = document.createElement("iframe");
+  childPlaylistDiv.src = playlist.filePath;
+  childPlaylistDiv.width = "100%";
+  childPlaylistDiv.height = "352";
+  childPlaylistDiv.frameBorder = "0";
+  childPlaylistDiv.allowFullscreen = "";
+  childPlaylistDiv.allow =
     "autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture";
-  playlistDiv.loading = "lazy";
-  playlistDiv.style.display = "inline-block";
-  playlistDiv.style.margin = "10px";
-  playlistDiv.appendChild(playlistDiv);
+  childPlaylistDiv.loading = "lazy";
+  childPlaylistDiv.style.display = "inline-block";
+  childPlaylistDiv.style.margin = "10px";
+  playlistDiv.appendChild(childPlaylistDiv);
 });

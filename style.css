@@ -1,15 +1,8 @@
-.themelayout {
-  margin: 12px;
-  background-color: gray;
-  width: 98%;
-  height: 500px;
-  border-radius: 20px;
-  padding: 20px;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  flex-direction: row;
-  height: max-content;
+.songs-layout {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 20px;
+  row-gap: 20px;
 }
 
 body {
@@ -77,3 +70,6 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+
+/* add media queries */

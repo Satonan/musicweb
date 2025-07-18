@@ -53,21 +53,7 @@ const songs = [
     filePath:
       "https://open.spotify.com/embed/track/0sTlGEld0h8kIPZaKDYUf4?utm_source=generator",
   },
-  {
-    songName: "",
-    artist: "",
-    filePath: "",
-  },
-  {
-    songName: "",
-    artist: "",
-    filePath: "",
-  },
-  {
-    songName: "",
-    artist: "",
-    filePath: "",
-  },
+  
 ];
 
 const playlists = [
@@ -86,7 +72,7 @@ console.log("🚀 ~ songsDiv:", songsDiv);
 songs.map((song) => {
   songDiv = document.createElement("iframe");
   songDiv.src = song.filePath;
-  songDiv.width = "30%";
+  songDiv.width = "100%";
   songDiv.height = "352";
   songDiv.frameBorder = "0";
   songDiv.allowFullscreen = "";
@@ -94,6 +80,5 @@ songs.map((song) => {
     "autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture";
   songDiv.loading = "lazy";
   songDiv.style.display = "inline-block";
-  songDiv.style.margin = "25px";
   songsDiv.appendChild(songDiv);
 });
