@@ -13,7 +13,7 @@ playlists.map((playlist) => {
   childPlaylistDiv = document.createElement("iframe");
   childPlaylistDiv.src = playlist.filePath;
   childPlaylistDiv.width = "100%";
-  childPlaylistDiv.height = "352";
+  childPlaylistDiv.height = "340";
   childPlaylistDiv.frameBorder = "0";
   childPlaylistDiv.allowFullscreen = "";
   childPlaylistDiv.allow =
@@ -23,3 +23,7 @@ playlists.map((playlist) => {
   childPlaylistDiv.style.margin = "10px";
   playlistDiv.appendChild(childPlaylistDiv);
 });
+
+function toggleSidebar() {
+  const sidebar = document.querySelector(".sidebar");
+  sidebar.classList.toggle("collapsed");

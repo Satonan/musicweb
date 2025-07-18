@@ -1,9 +1,9 @@
 const songs = [
   {
-    songName: "wild & free",
-    artist: "maxxteen, darkway",
+    songName: "ჩუბინა",
+    artist: "East Duo",
     filePath:
-      "https://open.spotify.com/embed/track/1Z5U1yTAvlYGP66R8obcqt?utm_source=generator",
+      "https://open.spotify.com/embed/track/0YAGCZjsDqw6yud2PTMuvu?utm_source=generator",
   },
   {
     songName: "Our time",
@@ -53,7 +53,6 @@ const songs = [
     filePath:
       "https://open.spotify.com/embed/track/0sTlGEld0h8kIPZaKDYUf4?utm_source=generator",
   },
-  
 ];
 
 const playlists = [
