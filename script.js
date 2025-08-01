@@ -53,6 +53,24 @@ const songs = [
     filePath:
       "https://open.spotify.com/embed/track/0sTlGEld0h8kIPZaKDYUf4?utm_source=generator",
   },
+  {
+    songName: "world.execute(me);",
+    artist: "Mili",
+    filePath:
+      "https://open.spotify.com/embed/track/2aozlm4HfRx8yRYL7RCoAH?utm_source=generator",
+  },
+  {
+    songName: "505",
+    artist: "Arctic Monkey",
+    filePath:
+      "https://open.spotify.com/embed/track/0BxE4FqsDD1Ot4YuBXwAPp?utm_source=generator&theme=0",
+  },
+  {
+    songName: "I'd rather pretend",
+    artist: "Bryant Barnes",
+    filePath:
+      "https://open.spotify.com/embed/track/4rJHH484bHZDts51o5i2CB?utm_source=generator",
+  },
 ];
 
 const playlists = [
